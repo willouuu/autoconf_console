@@ -22,6 +22,17 @@ read emailName
 sed "s/REPLACEMAIL/$emailGit/g" git.d/.gitconfig > git.d/.gitconfig.edit 
 sed "s/REPLACENAME/$emailName/g" git.d/.gitconfig.edit > git.d/.gitconfig.config
 
+
+echo "  # GitHub ssh :( y/n ) "
+read sshGitHub
+if [ $sshGitHub = "y" ]; then
+    echo "  # GitHub pseudo( xx ) : "
+    read pseudoGitHub
+    echo "[url \"ssh://$pseudoGitHub@github.com/\"]
+      insteadOf = https://github.com/ " >> git.d/.gitconfig.config
+fi
+
+
 cp git.d/.gitconfig.config $DESTCONF
 
 rm git.d/.gitconfig.edit
