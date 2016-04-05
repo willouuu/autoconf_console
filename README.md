@@ -7,7 +7,8 @@
 
 
 ## Installation de toutes les configuratuon
-   
+Vous pouvez utiliser install_all même si vous n'avez pas tous les paquets. Il ne mettra pas le fichiers de configuration
+
     git clone https://github.com/willouuu/vimrc.git ~/.autoconf_console
     sh ~/.autoconf_console/install_all.sh
 
