@@ -8,5 +8,7 @@ cd ~/.autoconf_console/
 
 ./install_vimrc.sh
 
+./install_gitconfig.sh
+
 
 echo "--> INSTALLATION DE TOUTES LES CONFIGURATIONS : OK"
