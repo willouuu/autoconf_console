@@ -1,14 +1,30 @@
-# The Ultimate vimrc forked
-Ce fork de Amix contient mes petites modifications du vimrc 
+# Configuration de console : Terminator, Tmux et Vim
      
-* [Source Ultimate vimrc par Amix](https://github.com/amix/vimrc/) Merci à lui !
-* Comparer au fork, je n'utilise que la partie "Awesome"
+* Bash : .bashrc
+* VIM : .vimrc [Voir source d'Ultimate vimrc par Amix](https://github.com/amix/vimrc/) Merci à lui !
+* Tmux : .tmux.conf 
+* Terminator : config 
 
 
-## Install
-Install le lot de plugins, configurations and color schemes 
+## Installation de toutes les configuratuon
    
-    git clone https://github.com/willouuu/vimrc.git ~/.vim_runtime
-    sh ~/.vim_runtime/install_awesome_vimrc.sh
+    git clone https://github.com/willouuu/vimrc.git ~/.autoconf_console
+    sh ~/.autoconf_console/install_all.sh
 
+
+## Installation de la configuration VIM 
+
+    git clone https://github.com/willouuu/vimrc.git ~/.autoconf_console
+    sh ~/.autoconf_console/install_vimrc.sh
+
+## Installation de la configuration Terminator
+
+    git clone https://github.com/willouuu/vimrc.git ~/.autoconf_console
+    sh ~/.autoconf_console/install_terminator.conf.sh
+
+
+## Installation de la configuration Tmux
+
+    git clone https://github.com/willouuu/vimrc.git ~/.autoconf_console
+    sh ~/.autoconf_console/install_tmux.conf.sh
 
