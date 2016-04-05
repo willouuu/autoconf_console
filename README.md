@@ -27,4 +27,15 @@
 
     git clone https://github.com/willouuu/vimrc.git ~/.autoconf_console
     sh ~/.autoconf_console/install_tmux.conf.sh
+ 
+## Installation de la configuration Tmux
+   
+    git clone https://github.com/willouuu/vimrc.git ~/.autoconf_console
+    sh ~/.autoconf_console/install_tmux.conf.sh
+
+>  ####### Configuration de GIT : 
+>  # Git email ( xx@xx.xx ) : 
+>  william66750@gmail.com
+>  # Git user.name ( prenom NOM ) : 
+>  William VINCENT
 
