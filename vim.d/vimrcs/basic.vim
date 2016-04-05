@@ -50,6 +50,9 @@ set history=500
 filetype plugin on
 filetype indent on
 
+" Set paste: Permet de ne pas avoir les problemes avec les commentaires
+set paste
+
 " Set to auto read when a file is changed from the outside
 set autoread
 
