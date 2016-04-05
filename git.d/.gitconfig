@@ -1,0 +1,30 @@
+[user]
+	email = william66750@gmail.com
+    name = William VINCENT
+[color]
+    ui = always
+    branch = always
+    diff = always
+    interactive = always
+    status = always
+[push]
+    # Mode branche master
+    default = simple
+[core]
+    editor = vim
+    pager = less
+    excludesfile = ~/.gitignore_global
+[alias]
+    st = status
+    ci = commit
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit
+    wdiff = diff --word-diff
+[diff]
+    #a/b -> i/w (index/work)
+    mnemonicprefix = true
+[help]
+    #commot -> commit
+    autocorrect = -1
+[log]
+    abbrevCommit = true
+    follow = true
