@@ -16,11 +16,13 @@ export EDITOR=vim # ou nano / emacs
 export HISTIGNORE="cd:ls:[bf]g:clear"
 # Pour avoir le man en couleur
 #export PAGER=most
+ISGRAPHIC=`which Xorg` >> /dev/null
+if [ $? == 0 ] ; then
 # Pour ne pas avoir les bips systèmes
 xset -b
 # Toujours forcer clavier FR
 setxkbmap fr
-
+fi
 ##############
 # Tips console
 ##############
