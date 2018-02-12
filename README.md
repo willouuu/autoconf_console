@@ -36,7 +36,5 @@ Vous pouvez utiliser install_all même si vous n'avez pas tous les paquets. Il n
 
     ####### Configuration de GIT : 
     # Git email ( xx@xx.xx ) : 
-    william66750@gmail.com
     # Git user.name ( prenom NOM ) : 
-    William VINCENT
 
